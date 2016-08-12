@@ -1,0 +1,4 @@
+tfk_create_user_archive:
+  image: telemark/tfk-create-user-archive
+  restart: always
+  env_file: tfk-create-user-archive.env

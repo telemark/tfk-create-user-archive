@@ -1,0 +1,47 @@
+{
+  "name": "tfk-create-user-archive",
+  "version": "1.0.0",
+  "description": "Creates user in archive",
+  "license": "MIT",
+  "author": {
+    "name": "Jonas Enge",
+    "email": "jonas.enge@gmail.com",
+    "url": "https://github.com/maccyber"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.4.7"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js"
+  },
+  "keywords": [
+    "Telemark fylkeskommune",
+    "tfk",
+    "p360",
+    "user"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/tfk-create-user-archive.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/tfk-create-user-archive/issues"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.12",
+    "standard": "7.1.2",
+    "tap": "6.3.0"
+  },
+  "dependencies": {
+    "async-waterfall": "0.1.5",
+    "is-file": "1.0.0",
+    "node-dsf": "^2.1.4",
+    "p360": "1.1.11",
+    "tfk-dsf-normalize-contact": "^1.0.1",
+    "tfk-dsf-unwrap-contact": "^1.0.7"
+  }
+}
