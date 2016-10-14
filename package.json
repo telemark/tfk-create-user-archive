@@ -1,6 +1,6 @@
 {
   "name": "tfk-create-user-archive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates user in archive",
   "license": "MIT",
   "author": {
@@ -42,6 +42,7 @@
     "node-dsf": "^2.1.4",
     "p360": "1.1.11",
     "tfk-dsf-normalize-contact": "^1.0.1",
-    "tfk-dsf-unwrap-contact": "^1.0.7"
+    "tfk-dsf-unwrap-contact": "^1.0.7",
+    "tfk-schools-info": "^1.1.2"
   }
 }
