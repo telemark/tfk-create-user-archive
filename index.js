@@ -19,11 +19,11 @@ const create = (req, callback) => {
       synchronizeContactPerson,
       synchronizeUser
     ], function (err, success) {
-      if (err) {
-        return callback(err)
-      }
-      return callback(null, success)
-    })
+    if (err) {
+      return callback(err)
+    }
+    return callback(null, success)
+  })
 }
 
 module.exports = (opts, callback) => {
