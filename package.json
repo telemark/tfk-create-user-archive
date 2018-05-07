@@ -40,7 +40,7 @@
     "async-waterfall": "0.1.5",
     "is-file": "1.0.0",
     "node-dsf": "^2.1.4",
-    "p360": "1.1.11",
+    "p360": "3.1.0",
     "tfk-dsf-normalize-contact": "^1.0.1",
     "tfk-dsf-unwrap-contact": "^1.0.7",
     "tfk-schools-info": "1.1.3"
