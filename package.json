@@ -43,6 +43,6 @@
     "p360": "3.1.1",
     "tfk-dsf-normalize-contact": "^2.0.0",
     "tfk-dsf-unwrap-contact": "^1.0.7",
-    "tfk-schools-info": "2.1.2"
+    "tfk-schools-info": "2.1.3"
   }
 }
