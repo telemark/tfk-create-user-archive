@@ -41,7 +41,7 @@
     "is-file": "1.0.0",
     "node-dsf": "^3.0.0",
     "p360": "3.1.3",
-    "tfk-dsf-normalize-contact": "^2.0.0",
+    "tfk-dsf-normalize-contact": "^3.0.0",
     "tfk-dsf-unwrap-contact": "^1.0.7",
     "tfk-schools-info": "2.1.4"
   }
